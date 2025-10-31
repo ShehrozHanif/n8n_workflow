@@ -169,3 +169,69 @@ So, every time you chat:
 Your workflow builds a **mini AI news assistant** that listens, thinks, remembers, and fetches real-time Hacker News updates — all through n8n’s visual, no-code environment.
 
 ---
+
+
+
+
+
+
+
+
+
+--
+--
+--
+--
+
+
+## lINKEDIN post
+
+---
+
+### 🚀 **I Just Built My First AI Agent in n8n — and It Actually Thinks for Itself!**
+
+Today, I completed something truly exciting — my **first AI-powered agent workflow** inside **n8n**! 🧠⚙️
+
+This isn’t just a basic chatbot — it’s a **smart AI system** that can:
+✅ Listen to your messages in real-time
+✅ Think using **Google Gemini**
+✅ Remember past conversations
+✅ Fetch **live data from Hacker News**
+✅ Summarize and respond like a human assistant
+
+💡 **How it works:**
+Whenever I send a query like *“What’s trending in AI this week?”*, the workflow:
+1️⃣ Triggers a chat listener
+2️⃣ Passes the query to an **AI Agent** built with LangChain
+3️⃣ The agent automatically calls the **Hacker News Tool**
+4️⃣ Fetches top tech stories
+5️⃣ Summarizes them through **Gemini** — in seconds!
+
+✨ **Why this is powerful:**
+This workflow is a small but mighty step toward building **autonomous AI systems** that can reason, act, and communicate intelligently — no code required.
+
+🧩 Tools Used:
+
+* **n8n** (Self-hosted automation platform)
+* **LangChain Agent**
+* **Google Gemini Model**
+* **Hacker News API**
+* **Memory Buffer** for context
+
+📈 **Result:**
+A self-thinking, context-aware, real-time AI assistant that keeps me updated with the latest AI & tech news every day — automatically.
+
+---
+
+💬 What’s next?
+I’m planning to upgrade it so it can **summarize each article in two lines** — turning it into a daily AI digest agent!
+
+---
+
+If you’re exploring **AI + Automation**, trust me — this combo of **n8n + LangChain + Gemini** is worth diving into. 💡
+It’s like giving your workflow its own brain. 🧠✨
+
+#n8n #AI #Automation #LangChain #Gemini #ArtificialIntelligence #AIAgent #NoCode #TechTrends #WorkflowAutomation #OpenAI #MachineLearning
+
+---
+

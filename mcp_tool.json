@@ -1,0 +1,58 @@
+{
+  "name": "mcp_tool",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "8db93fe5-b8b9-4eb6-ba60-5976ffa08d8f"
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpTrigger",
+      "typeVersion": 2,
+      "position": [
+        -400,
+        -128
+      ],
+      "id": "a08c29fd-d440-4d7d-b381-e69a151b1ab2",
+      "name": "MCP Server Trigger",
+      "webhookId": "8db93fe5-b8b9-4eb6-ba60-5976ffa08d8f"
+    },
+    {
+      "parameters": {
+        "resource": "all",
+        "limit": 20,
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.hackerNewsTool",
+      "typeVersion": 1,
+      "position": [
+        -448,
+        16
+      ],
+      "id": "5fc52dcc-7449-4578-9ef4-95699b588c68",
+      "name": "Get many items in Hacker News"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get many items in Hacker News": {
+      "ai_tool": [
+        [
+          {
+            "node": "MCP Server Trigger",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "8f568703-6e05-49a8-ae2a-7cffc5bc549c",
+  "meta": {
+    "instanceId": "58989deb4f2226bd82c003d24749cb2f600ee6300964e762680bd7d923e1cf84"
+  },
+  "id": "ZsHtP3TobipO0VND",
+  "tags": []
+}
